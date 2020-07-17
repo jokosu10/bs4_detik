@@ -14,4 +14,4 @@ images_popular_area = populer_area.find_all(attrs={'class': 'media__image'})
 #     print(i.text)
 
 for i in images_popular_area:
-    print(i.find('a').find('img')['title'])
+    print(i.find('a').find('img'))
